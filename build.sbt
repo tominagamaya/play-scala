@@ -10,6 +10,8 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
+  "org.json4s" %% "json4s-native" % "3.5.3",
+  "org.json4s" %% "json4s-jackson" % "3.5.3",
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 )
 
